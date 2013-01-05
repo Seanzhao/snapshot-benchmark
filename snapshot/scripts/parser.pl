@@ -25,7 +25,7 @@ my @service_data;
 my $service_data_cnt = 0;
 my @service_data_selected;
 my $service_data_selected_cnt = 0;
-my $instance_count = 10;
+my $instance_count = 30;
 my %service_plan;
 
 my $service_instances;
@@ -42,7 +42,7 @@ my $query = $dbh->prepare("select services.name,plan,email,service_configs.name 
 my $result = $query->execute();
 while (my @line = $query->fetchrow_array())
 {
-  if ($line[0] =~ /^\s*(mongodb|mysql|postresql|redis)/)
+  if ($line[0] =~ /^\s*(mongodb|mysql|postgresql|redis)/)
   {
     if (($line[0] ne $service) || ($line[1] ne $plan))
     {

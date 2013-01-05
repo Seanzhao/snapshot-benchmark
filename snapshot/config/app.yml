@@ -3,4 +3,4 @@ application:
   name: snapshot-mega
   framework: sinatra
   runtime: "ruby19"
-  memory: 768
+  memory: 128

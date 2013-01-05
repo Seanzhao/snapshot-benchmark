@@ -6,7 +6,7 @@ $:.unshift(File.join(File.dirname(__FILE__), "lib"))
 require "utils"
 require "results"
 
-PAUSE_TIME = 5;
+PAUSE_TIME = 10;
 APP_CONFIG = File.join(File.dirname(__FILE__), "config/app.yml")
 app_config = YAML.load_file(APP_CONFIG)
 SERVICE_CONFIG = File.join(File.dirname(__FILE__), "config/service_config.yml")
