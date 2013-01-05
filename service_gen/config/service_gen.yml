@@ -1,0 +1,136 @@
+--- 
+cleanup: true
+target: api.cf173.dev.las01.vcsops.com
+user_number: 5
+users:
+- email: postgresql-lifecycle1@vmware.com
+  password: password
+  application:
+    name: postgresql-app
+    framework: sinatra
+    runtime: "ruby19"
+    memory: 256
+    service: postgresql 
+    plan: "100"
+    services:
+    - service: postgresql-xxyy001
+    - service: postgresql-xxyy002
+    - service: postgresql-xxyy003
+    - service: postgresql-xxyy004
+    - service: postgresql-xxyy005
+    - service: postgresql-xxyy006
+    - service: postgresql-xxyy007
+    - service: postgresql-xxyy008
+    - service: postgresql-xxyy009
+    - service: postgresql-xxyy010
+    - service: postgresql-xxyy011
+    - service: postgresql-xxyy012
+    - service: postgresql-xxyy013
+    - service: postgresql-xxyy014
+    - service: postgresql-xxyy015
+    - service: postgresql-xxyy016
+- email: redis-lifecycle1@vmware.com
+  password: password
+  application:
+    name: redis-app
+    framework: sinatra
+    runtime: "ruby19"
+    memory: 256
+    service: redis
+    plan: "100"
+    services:
+    - service: redis-xxyy001
+    - service: redis-xxyy002
+    - service: redis-xxyy003
+    - service: redis-xxyy004
+    - service: redis-xxyy005
+    - service: redis-xxyy006
+    - service: redis-xxyy007
+    - service: redis-xxyy008
+    - service: redis-xxyy009
+    - service: redis-xxyy010
+    - service: redis-xxyy011
+    - service: redis-xxyy012
+    - service: redis-xxyy013
+    - service: redis-xxyy014
+    - service: redis-xxyy015
+    - service: redis-xxyy016
+- email: mongodb-lifecycle1@vmware.com
+  password: password
+  application:
+    name: mongodb-app
+    framework: sinatra
+    runtime: "ruby19"
+    memory: 256
+    service: mongodb 
+    plan: "100"
+    services:
+    - service: mongodb-100-xxyy001
+    - service: mongodb-100-xxyy002
+    - service: mongodb-100-xxyy003
+    - service: mongodb-100-xxyy004
+    - service: mongodb-100-xxyy005
+    - service: mongodb-100-xxyy006
+    - service: mongodb-100-xxyy007
+    - service: mongodb-100-xxyy008
+    - service: mongodb-100-xxyy009
+    - service: mongodb-100-xxyy010
+    - service: mongodb-100-xxyy011
+    - service: mongodb-100-xxyy012
+    - service: mongodb-100-xxyy013
+    - service: mongodb-100-xxyy014
+    - service: mongodb-100-xxyy015
+    - service: mongodb-100-xxyy016
+- email: mongodb-lifecycle2@vmware.com
+  password: password
+  application:
+    name: mongodb-app
+    framework: sinatra
+    runtime: "ruby19"
+    memory: 256
+    service: mongodb 
+    plan: "200"
+    services:
+    - service: mongodb-200-xxyy001
+    - service: mongodb-200-xxyy002
+    - service: mongodb-200-xxyy003
+    - service: mongodb-200-xxyy004
+    - service: mongodb-200-xxyy005
+    - service: mongodb-200-xxyy006
+    - service: mongodb-200-xxyy007
+    - service: mongodb-200-xxyy008
+    - service: mongodb-200-xxyy009
+    - service: mongodb-200-xxyy010
+    - service: mongodb-200-xxyy011
+    - service: mongodb-200-xxyy012
+    - service: mongodb-200-xxyy013
+    - service: mongodb-200-xxyy014
+    - service: mongodb-200-xxyy015
+    - service: mongodb-200-xxyy016
+- email: mysql-lifecycle1@vmware.com
+  password: password
+  application:
+    name: mysql-app
+    framework: sinatra
+    runtime: "ruby19"
+    memory: 256
+    service: mysql 
+    plan: "100"
+    services:
+    - service: mysql-xxyy001
+    - service: mysql-xxyy002
+    - service: mysql-xxyy003
+    - service: mysql-xxyy004
+    - service: mysql-xxyy005
+    - service: mysql-xxyy006
+    - service: mysql-xxyy007
+    - service: mysql-xxyy008
+    - service: mysql-xxyy009
+    - service: mysql-xxyy010
+    - service: mysql-xxyy011
+    - service: mysql-xxyy012
+    - service: mysql-xxyy013
+    - service: mysql-xxyy014
+    - service: mysql-xxyy015
+    - service: mysql-xxyy016
+

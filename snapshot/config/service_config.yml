@@ -1,0 +1,51 @@
+---
+target: api.cf173.dev.las01.vcsops.com
+services:
+- name: mongodb
+  plans:
+  - name: 100
+    users:
+    - email: mongodb-lifecycle1@vmware.com
+      password: password
+      services:
+      - service: 4e38b74a-1d1b-4b27-81a1-18c057b806ed
+      - service: a46ea636-fd37-4128-ab0a-67b5c0d7e4a6
+      - service: 88626975-cb09-47e9-83c9-a9008527ac6b
+      - service: 5d0aaa65-2f2a-4cf2-91e6-9c15ed931b4e
+      - service: 18e1b69d-bc19-4141-a43a-0e5651112902
+      - service: 9be29511-6c21-43b7-9697-65c992e14d9a
+      - service: 7f99a8d5-5d0d-4a3b-9e35-b0350e5e993e
+      - service: 8749ad4f-6637-44c9-b3e8-f403335ee32f
+      - service: e73d7e48-f993-4bdf-af3f-78651c28053a
+  - name: 200
+    users:
+    - email: mongodb-lifecycle2@vmware.com
+      password: password
+      services:
+      - service: f7ca893c-51ec-4f8c-bd4b-ba19b6388397
+      - service: ddf3ff1b-c02b-43d0-ac50-22d55d7e9f52
+      - service: 997571bb-7f00-4749-9457-1472b0e4d254
+      - service: b8acccce-76ce-4539-95d1-7579f87a0b96
+      - service: c540bf26-b4ae-4574-91f2-6196921a3e25
+      - service: 6582f2ee-eb49-4d6a-b776-152809d3d5eb
+      - service: ae239928-6a6f-4972-bd5f-adc43d814834
+      - service: f3471df0-fb19-4bec-bf93-db615b4cbdda
+      - service: 8b63cbf2-1646-43d9-946c-84ee9a53ca2e
+      - service: 560a8169-6cd7-4020-9247-9bc10672676c
+- name: mysql
+  plans:
+  - name: 100
+    users:
+    - email: mysql-lifecycle1@vmware.com
+      password: password
+      services:
+      - service: de0f83c5e5f644c3cb6dda4c6f4352909
+      - service: d0ae5ffd60f6d4d87bc03409fd2d4a516
+      - service: d8906bf2bd71141fcad1fc7d4cad2ec31
+      - service: ddd65b6c595dc4a9baa9d5623766ece50
+      - service: dc8f9c3939c8046ef8def0d0ee9931754
+      - service: d5634dbb9a20d4700acbbf8f1df53381a
+      - service: d621b21524ca143b49c0147883abea855
+      - service: de9a6ad58f10d4bb08714dd0076380ec5
+      - service: d28cf1a2d0146426f8efbd2882d3c4ee7
+      - service: d8fbd8d5211be47e5b5f954b08ad68df6

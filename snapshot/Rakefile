@@ -1,0 +1,7 @@
+$:.unshift(File.join(File.dirname(__FILE__), "lib"))
+require "utils"
+
+desc "run snapshot mega test"
+task :start do
+  sh('ruby start.rb')
+end

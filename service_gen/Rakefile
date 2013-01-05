@@ -1,0 +1,7 @@
+$:.unshift(File.join(File.dirname(__FILE__), "lib"))
+require "utils"
+
+desc "create service instances"
+task :start do
+  sh('ruby start.rb')
+end
